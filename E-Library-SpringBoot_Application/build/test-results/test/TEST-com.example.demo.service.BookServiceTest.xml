@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.example.demo.service.BookServiceTest" tests="8" skipped="0" failures="0" errors="0" timestamp="2021-09-01T13:14:36" hostname="197BLRNB29227" time="0.674">
+  <properties/>
+  <testcase name="testGetBookByAuthorName()" classname="com.example.demo.service.BookServiceTest" time="0.013"/>
+  <testcase name="testSaveBook()" classname="com.example.demo.service.BookServiceTest" time="0.099"/>
+  <testcase name="testGetBookById()" classname="com.example.demo.service.BookServiceTest" time="0.006"/>
+  <testcase name="testGetAllBook()" classname="com.example.demo.service.BookServiceTest" time="0.319"/>
+  <testcase name="testTextualSearch()" classname="com.example.demo.service.BookServiceTest" time="0.036"/>
+  <testcase name="testDeleteBook()" classname="com.example.demo.service.BookServiceTest" time="0.192"/>
+  <testcase name="testGetBookByAuthorId()" classname="com.example.demo.service.BookServiceTest" time="0.004"/>
+  <testcase name="testGetBookByBookName()" classname="com.example.demo.service.BookServiceTest" time="0.004"/>
+  <system-out><![CDATA[B
+called getTextualSearch Method
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

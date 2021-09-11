@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.example.demo.service.ItemDaoTest" tests="4" skipped="0" failures="0" errors="0" timestamp="2021-09-01T13:14:37" hostname="197BLRNB29227" time="0.397">
+  <properties/>
+  <testcase name="itemDaoFindItemById()" classname="com.example.demo.service.ItemDaoTest" time="0.363"/>
+  <testcase name="itemDaoDeleteItem()" classname="com.example.demo.service.ItemDaoTest" time="0.017"/>
+  <testcase name="itemDaoSave()" classname="com.example.demo.service.ItemDaoTest" time="0.009"/>
+  <testcase name="itemDaoFindAll()" classname="com.example.demo.service.ItemDaoTest" time="0.008"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

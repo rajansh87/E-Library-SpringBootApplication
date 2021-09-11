@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.example.demo.controller.model.ModelTest" tests="3" skipped="0" failures="0" errors="0" timestamp="2021-09-01T13:14:23" hostname="197BLRNB29227" time="0.023">
+  <properties/>
+  <testcase name="getAuthorInstance()" classname="com.example.demo.controller.model.ModelTest" time="0.019"/>
+  <testcase name="getItemInstance()" classname="com.example.demo.controller.model.ModelTest" time="0.001"/>
+  <testcase name="getBoookInstance()" classname="com.example.demo.controller.model.ModelTest" time="0.001"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.example.demo.controller.BookControllerTest" tests="8" skipped="0" failures="0" errors="0" timestamp="2021-09-01T13:14:25" hostname="197BLRNB29227" time="0.185">
+  <properties/>
+  <testcase name="testGetBookByAuthorName()" classname="com.example.demo.controller.BookControllerTest" time="0.037"/>
+  <testcase name="testSaveBook()" classname="com.example.demo.controller.BookControllerTest" time="0.085"/>
+  <testcase name="testGetBookById()" classname="com.example.demo.controller.BookControllerTest" time="0.01"/>
+  <testcase name="testGetAllBook()" classname="com.example.demo.controller.BookControllerTest" time="0.014"/>
+  <testcase name="testTextualSearch()" classname="com.example.demo.controller.BookControllerTest" time="0.01"/>
+  <testcase name="testDeleteBook()" classname="com.example.demo.controller.BookControllerTest" time="0.008"/>
+  <testcase name="testGetBookByAuthorId()" classname="com.example.demo.controller.BookControllerTest" time="0.006"/>
+  <testcase name="testGetBookByBookName()" classname="com.example.demo.controller.BookControllerTest" time="0.008"/>
+  <system-out><![CDATA[18:44:25.653 [Test worker] DEBUG io.mockk.impl.instantiation.AbstractMockFactory - Creating mockk for BookServiceImpl name=bookService#2
+18:44:25.803 [Test worker] DEBUG io.mockk.impl.recording.states.AnsweringState - Answering [com.example.demo.model.Book@3dade511] on BookServiceImpl(bookService#2).getBookByAuthorName(newAuthor)
+18:44:25.888 [Test worker] DEBUG io.mockk.impl.instantiation.AbstractMockFactory - Creating mockk for Book name=child of bookService#2#3
+18:44:25.889 [Test worker] DEBUG io.mockk.impl.recording.states.AnsweringState - Answering com.example.demo.model.Book@24058899 on BookServiceImpl(bookService#2).saveBook(com.example.demo.model.Book@24058899)
+18:44:25.898 [Test worker] DEBUG io.mockk.impl.instantiation.AbstractMockFactory - Creating mockk for Any name=child of bookService#2#4
+18:44:25.900 [Test worker] DEBUG io.mockk.impl.recording.states.AnsweringState - Answering com.example.demo.model.Book@2aeecd7e on BookServiceImpl(bookService#2).getBookById(1)
+18:44:25.915 [Test worker] DEBUG io.mockk.impl.recording.states.AnsweringState - Answering [com.example.demo.model.Book@674a1a77] on BookServiceImpl(bookService#2).getAllBook(0, 2)
+18:44:25.926 [Test worker] DEBUG io.mockk.impl.recording.states.AnsweringState - Answering [com.example.demo.model.Book@59f5fa9f] on BookServiceImpl(bookService#2).getTextualSearch(Harry, 0, 2)
+18:44:25.933 [Test worker] DEBUG io.mockk.impl.instantiation.AbstractMockFactory - Creating mockk for Book name=child of bookService#2#5
+18:44:25.935 [Test worker] DEBUG io.mockk.impl.recording.states.AnsweringState - Answering com.example.demo.model.Book@558e0149 on BookServiceImpl(bookService#2).deleteBook(1)
+18:44:25.943 [Test worker] DEBUG io.mockk.impl.recording.states.AnsweringState - Answering [com.example.demo.model.Book@50d2131b] on BookServiceImpl(bookService#2).getBookByAuthor(1)
+18:44:25.951 [Test worker] DEBUG io.mockk.impl.recording.states.AnsweringState - Answering [com.example.demo.model.Book@4d00d3b9] on BookServiceImpl(bookService#2).getDetails(newBook9)
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.example.demo.service.AuthorServiceTest" tests="2" skipped="0" failures="0" errors="0" timestamp="2021-09-01T13:14:36" hostname="197BLRNB29227" time="0.008">
+  <properties/>
+  <testcase name="testGetAllAuthors()" classname="com.example.demo.service.AuthorServiceTest" time="0.005"/>
+  <testcase name="testGetAuthorsByAuthorName()" classname="com.example.demo.service.AuthorServiceTest" time="0.003"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

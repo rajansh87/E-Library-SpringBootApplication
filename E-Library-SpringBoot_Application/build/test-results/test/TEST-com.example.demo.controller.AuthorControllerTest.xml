@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.example.demo.controller.AuthorControllerTest" tests="2" skipped="0" failures="0" errors="0" timestamp="2021-09-01T13:14:24" hostname="197BLRNB29227" time="0.683">
+  <properties/>
+  <testcase name="testGetAllAuthors()" classname="com.example.demo.controller.AuthorControllerTest" time="0.662"/>
+  <testcase name="testGetAuthorsByAuthorName()" classname="com.example.demo.controller.AuthorControllerTest" time="0.02"/>
+  <system-out><![CDATA[18:44:24.165 [Test worker] DEBUG io.mockk.impl.instantiation.AbstractMockFactory - Creating mockk for AuthorServiceImpl name=authorService#1
+18:44:25.551 [Test worker] DEBUG io.mockk.impl.recording.states.AnsweringState - Answering [com.example.demo.model.Author@5a15325f] on AuthorServiceImpl(authorService#1).getAllAuthors()
+<302 FOUND Found,[com.example.demo.model.Author@5a15325f],[]>.body + [com.example.demo.model.Author@5a15325f]
+18:44:25.601 [Test worker] DEBUG io.mockk.impl.recording.states.AnsweringState - Answering [com.example.demo.model.Author@78f01b3a] on AuthorServiceImpl(authorService#1).getDetails(newAuthor)
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
